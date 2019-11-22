@@ -11,7 +11,7 @@ See [action.yml](action.yml)
 Basic:
 ```yaml
 steps:
-- uses: caiomarruda/redisearch-action@v1.0.0
+- uses: caiomarruda/redisearch-action@v1.0.1
   with:
     redis version: '5'
 ```
