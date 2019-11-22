@@ -1,8 +1,8 @@
-# Redis GitHub Action
+# RediSearch GitHub Action
 
-This [GitHub Action](https://github.com/features/actions) sets up Redis database.
+This [GitHub Action](https://github.com/features/actions) sets up RediSearch database.
 
-Inspired by https://github.com/Harmon758/postgresql-action, @Harmon758 Thanks!
+Inspired by https://github.com/zhulik/redis-action @zhulik Thanks!
 
 # Usage
 
@@ -11,7 +11,7 @@ See [action.yml](action.yml)
 Basic:
 ```yaml
 steps:
-- uses: zhulik/redis-action@v1.0.0
+- uses: caiomarruda/redisearch-action@v1.0.0
   with:
     redis version: '5'
 ```

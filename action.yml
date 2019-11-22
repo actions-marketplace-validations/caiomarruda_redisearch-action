@@ -1,0 +1,14 @@
+name: 'Setup RediSearch'
+description: 'Setup RediSearch database'
+author: 'Caio Arruda'
+branding:
+  icon: 'database'
+  color: 'red'
+inputs:
+  redis version:
+    description: 'Version of RediSearch to use'
+    required: false
+    default: 'latest'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
